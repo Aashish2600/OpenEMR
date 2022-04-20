@@ -1,71 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-20T21:03:57 IST" name="Default suite" finished-at="2022-04-20T21:04:20 IST" duration-ms="23484">
+  <suite started-at="2022-04-20T22:14:28 IST" name="OpenEMR Suite" finished-at="2022-04-20T22:14:41 IST" duration-ms="12551">
     <groups>
     </groups>
-    <test started-at="2022-04-20T21:03:57 IST" name="Default test" finished-at="2022-04-20T21:04:20 IST" duration-ms="23484">
-      <class name="com.harman.test.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.harman.test.LoginTest@2c1b194a]" started-at="2022-04-20T21:03:57 IST" name="setup" finished-at="2022-04-20T21:04:04 IST" duration-ms="7283" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="validCredentialTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.harman.test.LoginTest@2c1b194a]" started-at="2022-04-20T21:04:04 IST" name="validCredentialTest" data-provider="validCredentialData" finished-at="2022-04-20T21:04:09 IST" duration-ms="4714" status="PASS">
+    <test started-at="2022-04-20T22:14:28 IST" name="OpenEMR Test" finished-at="2022-04-20T22:14:41 IST" duration-ms="12551">
+      <class name="com.harman.test.LoginUITest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.harman.test.LoginUITest@957e06]" started-at="2022-04-20T22:14:28 IST" name="setup" finished-at="2022-04-20T22:14:40 IST" duration-ms="12043" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pass]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[OpenEMR]]>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validCredentialTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.harman.test.LoginTest@2c1b194a]" started-at="2022-04-20T21:04:09 IST" name="teardown" finished-at="2022-04-20T21:04:09 IST" duration-ms="193" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.harman.test.LoginTest@2c1b194a]" started-at="2022-04-20T21:04:09 IST" name="setup" finished-at="2022-04-20T21:04:15 IST" duration-ms="6270" status="PASS">
-          <reporter-output>
-          </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validCredentialTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.harman.test.LoginTest@2c1b194a]" started-at="2022-04-20T21:04:15 IST" name="validCredentialTest" data-provider="validCredentialData" finished-at="2022-04-20T21:04:20 IST" duration-ms="4787" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[physician]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[physician]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[OpenEMR]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="validateTitleTest()[pri:0, instance:com.harman.test.LoginUITest@957e06]" started-at="2022-04-20T22:14:40 IST" name="validateTitleTest" finished-at="2022-04-20T22:14:40 IST" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validCredentialTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.harman.test.LoginTest@2c1b194a]" started-at="2022-04-20T21:04:20 IST" name="teardown" finished-at="2022-04-20T21:04:20 IST" duration-ms="199" status="PASS">
+        </test-method> <!-- validateTitleTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.harman.test.LoginUITest@957e06]" started-at="2022-04-20T22:14:40 IST" name="teardown" finished-at="2022-04-20T22:14:41 IST" duration-ms="423" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.harman.test.LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.harman.test.LoginUITest -->
+    </test> <!-- OpenEMR Test -->
+  </suite> <!-- OpenEMR Suite -->
 </testng-results>

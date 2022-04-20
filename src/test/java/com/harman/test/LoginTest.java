@@ -6,12 +6,12 @@ import org.testng.annotations.Test;
 
 import com.harman.base.WebDriverWrapper;
 import com.harman.utilities.DataUtils;
-	
+
 public class LoginTest extends WebDriverWrapper {
-	
+
 	@Test(dataProviderClass = DataUtils.class,dataProvider = "validCredentialData")
-	public void validCredentialTest(String username,String password,String expectedTitle) {
-		
+	public void validCredentialTest(String username, String password, String expectedTitle) {
+
 		driver.findElement(By.id("authUser")).sendKeys(username);
 		driver.findElement(By.cssSelector("#clearPass")).sendKeys(password);
 		driver.findElement(By.id("login-button")).click();
